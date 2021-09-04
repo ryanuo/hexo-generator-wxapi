@@ -1,0 +1,56 @@
+{
+  "_from": "hexo-generator-restful",
+  "_id": "hexo-generator-restful@0.2.3",
+  "_inBundle": false,
+  "_integrity": "sha1-fD61lXd78p7DQYWxc3t4s3wWfb8=",
+  "_location": "/hexo-generator-restful",
+  "_phantomChildren": {
+    "object-assign": "4.1.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-generator-restful",
+    "name": "hexo-generator-restful",
+    "escapedName": "hexo-generator-restful",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.nlark.com/hexo-generator-restful/download/hexo-generator-restful-0.2.3.tgz",
+  "_shasum": "7c3eb595777bf29ec34185b1737b78b37c167dbf",
+  "_spec": "hexo-generator-restful",
+  "_where": "D:\\Github\\blog",
+  "author": {
+    "name": "yusen"
+  },
+  "bugs": {
+    "url": "https://github.com/yscoder/hexo-generator-restful/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hexo-pagination": "^0.1.0",
+    "lodash.pick": "^4.4.0"
+  },
+  "deprecated": false,
+  "description": "Generate restful json data for Hexo plugins.",
+  "homepage": "https://github.com/yscoder/hexo-generator-restful#readme",
+  "keywords": [
+    "hexo",
+    "restful",
+    "json",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-generator-restful",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yscoder/hexo-generator-restful.git"
+  },
+  "version": "0.2.3"
+}
