@@ -1,18 +1,17 @@
 {
-  "_from": "hexo-generator-restful",
-  "_id": "hexo-generator-restful@0.2.3",
+  "_from": "hexo-generator-restful-wx",
+  "_id": "hexo-generator-restful-wx@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-fD61lXd78p7DQYWxc3t4s3wWfb8=",
-  "_location": "/hexo-generator-restful",
+  "_location": "/hexo-generator-restful-wx",
   "_phantomChildren": {
-    "object-assign": "4.1.1"
+    "object-assign": "1.0.2"
   },
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "hexo-generator-restful",
-    "name": "hexo-generator-restful",
-    "escapedName": "hexo-generator-restful",
+    "raw": "hexo-generator-restful-wx",
+    "name": "hexo-generator-restful-wx",
+    "escapedName": "hexo-generator-restful-wx",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -21,15 +20,14 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.nlark.com/hexo-generator-restful/download/hexo-generator-restful-0.2.3.tgz",
-  "_shasum": "7c3eb595777bf29ec34185b1737b78b37c167dbf",
-  "_spec": "hexo-generator-restful",
+  "_resolved": "https://registry.nlark.com/hexo-generator-restful-wx/download/hexo-generator-restful-wx-1.0.2.tgz",
+  "_spec": "hexo-generator-restful-wx",
   "_where": "D:\\Github\\blog",
   "author": {
-    "name": "yusen"
+    "name": "harry"
   },
   "bugs": {
-    "url": "https://github.com/yscoder/hexo-generator-restful/issues"
+    "url": "https://github.com/rr210/hexo-generator-restful-wx/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -38,7 +36,7 @@
   },
   "deprecated": false,
   "description": "Generate restful json data for Hexo plugins.",
-  "homepage": "https://github.com/yscoder/hexo-generator-restful#readme",
+  "homepage": "https://github.com/rr210/hexo-generator-restful-wx#readme",
   "keywords": [
     "hexo",
     "restful",
@@ -47,10 +45,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "hexo-generator-restful",
+  "name": "hexo-generator-restful-wx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yscoder/hexo-generator-restful.git"
+    "url": "git+https://github.com/rr210/hexo-generator-restful-wx.git"
   },
-  "version": "0.2.3"
+  "version": "1.0.2"
 }

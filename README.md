@@ -1,10 +1,9 @@
 # hexo-generator-restful-wx
+* 基于[hexo-generator-restful](https://www.npmjs.com/package/hexo-generator-restful) 进行修改, 增加了指定文章列表生成(用于轮播图的展示)
 
-基于hexo-generator-restful 进行修改, 增加了指定文章列表生成(用于轮播图的展示)
+* Generate restful json data for Hexo plugins.
 
-Generate restful json data for Hexo plugins.
-
-生成 restful 风格的 json 数据, 可以当作 api 接口, 开始构建一个 SPA 应用吧.
+* 生成 restful 风格的 json 数据, 可以当作 api 接口, 开始构建一个 SPA 应用吧.
 
 ## Install
 
@@ -41,7 +40,7 @@ restful:
   use_tag_slug: false      # Use slug for filename of tag data
   post: true               # 文章数据
   pages: false             # 额外的 Hexo 页面数据, 如 About
-  swipers_list:[]          # 生成指定的页面信息 比如轮播图
+  swipers_list:[]          # 生成指定的页面信息 比如轮播图,填写你文章文件夹名称比如['css','js']，不加后缀名
 ```
 
 ## Document
@@ -159,6 +158,20 @@ GET /api/articles/:Slug.json
 ###### Response
 
 [/api/articles/javascript-advanced-functions.json](http://www.imys.net/api/articles/javascript-advanced-functions.json)
+
+### Get Post By [Slug]
+
+获取指定的页面
+
+###### Request
+
+```
+GET /api/swiper.json
+```
+
+###### Response
+
+得到指定别名的文章信息, 主要用于轮播图api
 
 ### Get Implecit Pages
 
