@@ -1,10 +1,10 @@
 {
   "_from": "hexo-generator-restful-wx",
-  "_id": "hexo-generator-restful-wx@1.0.2",
+  "_id": "hexo-generator-restful-wx@1.0.32",
   "_inBundle": false,
   "_location": "/hexo-generator-restful-wx",
   "_phantomChildren": {
-    "object-assign": "1.0.2"
+    "object-assign": "1.0.32"
   },
   "_requested": {
     "type": "tag",
@@ -20,7 +20,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.nlark.com/hexo-generator-restful-wx/download/hexo-generator-restful-wx-1.0.2.tgz",
+  "_resolved": "https://registry.nlark.com/hexo-generator-restful-wx/download/hexo-generator-restful-wx-1.0.32.tgz",
   "_spec": "hexo-generator-restful-wx",
   "_where": "D:\\Github\\blog",
   "author": {
@@ -41,7 +41,9 @@
     "hexo",
     "restful",
     "json",
-    "generator"
+    "generator",
+    "微信小程序",
+    "wx"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -50,5 +52,5 @@
     "type": "git",
     "url": "git+https://github.com/rr210/hexo-generator-restful-wx.git"
   },
-  "version": "1.0.2"
+  "version": "1.0.32"
 }
