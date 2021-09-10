@@ -1,6 +1,6 @@
 {
   "_from": "hexo-generator-wxapi",
-  "_id": "hexo-generator-wxapi@1.0.45",
+  "_id": "hexo-generator-wxapi@1.0.46",
   "_inBundle": false,
   "_integrity": "sha1-2z10vuFuwqxvoOiugBCvFB/Ct2E=",
   "_location": "/hexo-generator-wxapi",
@@ -21,7 +21,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.nlark.com/hexo-generator-wxapi/download/hexo-generator-wxapi-1.0.45.tgz?cache=0&sync_timestamp=1631288103387&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhexo-generator-wxapi%2Fdownload%2Fhexo-generator-wxapi-1.0.45.tgz",
+  "_resolved": "https://registry.nlark.com/hexo-generator-wxapi/download/hexo-generator-wxapi-1.0.46.tgz",
   "_shasum": "db3d74bee16ec2ac6fa0e8ae8010af141fc2b761",
   "_spec": "hexo-generator-wxapi",
   "_where": "D:\\Github\\blog",
@@ -56,5 +56,5 @@
     "type": "git",
     "url": "git+https://github.com/rr210/hexo-generator-wxapi.git"
   },
-  "version": "1.0.45"
+  "version": "1.0.46"
 }
