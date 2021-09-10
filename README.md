@@ -4,7 +4,7 @@
  * @Date: 2021-09-07 09:32:40
  * @Url: https://u.mr90.top
  * @github: https://github.com/rr210
- * @LastEditTime: 2021-09-10 07:45:09
+ * @LastEditTime: 2021-09-10 23:33:04
  * @LastEditors: Harry
 -->
 <div align="right">
@@ -57,6 +57,10 @@ restful:
   post: true               # 文章数据
   pages: false             # 额外的 Hexo 页面数据, 如 About
   swipers_list: []          # 生成指定的页面信息,填写你文章文件夹名称比如['css','js']，不加后缀名,主要用于轮播图api
+  search_all:
+    path: "/api/search.json"
+    field: "post"
+    content: true
 ```
 
 ## Document
@@ -74,6 +78,7 @@ Get|Domain+ `/api/categories.json` | 获取所有的文章的分类
 Get|Domain+ `/api/categories/:CateName` | 获取指定分类的文章列表
 Get|Domain+ `/api/articles/:Slug.json` | 根据文章的别名获取文章的详细的数据, `:Slug` 为文章的别名.
 Get|Domain+ `/api/swiper.json` | 获取指定的列表别名的文章列表, eg: `['web', 'hexo', 'java']` 数组中的字符为指定文章的别名, 功能主要用于微信小程序轮播图文章的指定动态配置
+Get|Domain+ `/api/search.json` | 获取全部文档, 用于本地全局搜索
 
 ### Get Implecit Pages
 

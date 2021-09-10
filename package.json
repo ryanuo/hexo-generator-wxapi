@@ -1,17 +1,17 @@
 {
-  "_from": "hexo-generator-restful-wx",
-  "_id": "hexo-generator-restful-wx@1.0.34",
+  "_from": "hexo-generator-wxapi",
+  "_id": "hexo-generator-wxapi@1.0.41",
   "_inBundle": false,
-  "_location": "/hexo-generator-restful-wx",
+  "_location": "/hexo-generator-wxapi",
   "_phantomChildren": {
-    "object-assign": "1.0.34"
+    "object-assign": "1.0.41"
   },
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "hexo-generator-restful-wx",
-    "name": "hexo-generator-restful-wx",
-    "escapedName": "hexo-generator-restful-wx",
+    "raw": "hexo-generator-wxapi",
+    "name": "hexo-generator-wxapi",
+    "escapedName": "hexo-generator-wxapi",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -20,23 +20,25 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.nlark.com/hexo-generator-restful-wx/download/hexo-generator-restful-wx-1.0.34.tgz",
-  "_spec": "hexo-generator-restful-wx",
+  "_resolved": "https://registry.nlark.com/hexo-generator-wxapi/download/hexo-generator-wxapi-1.0.41.tgz",
+  "_spec": "hexo-generator-wxapi",
   "_where": "D:\\Github\\blog",
   "author": {
     "name": "harry"
   },
   "bugs": {
-    "url": "https://github.com/rr210/hexo-generator-restful-wx/issues"
+    "url": "https://github.com/rr210/hexo-generator-wxapi/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
     "hexo-pagination": "^0.1.0",
-    "lodash.pick": "^4.4.0"
+    "lodash.pick": "^4.4.0",
+    "nunjucks": "^3.0.1",
+    "utils-merge": "^1.0.0"
   },
   "deprecated": false,
   "description": "Generate restful json data for Hexo plugins.",
-  "homepage": "https://github.com/rr210/hexo-generator-restful-wx#readme",
+  "homepage": "https://github.com/rr210/hexo-generator-wxapi#readme",
   "keywords": [
     "hexo",
     "restful",
@@ -47,10 +49,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "hexo-generator-restful-wx",
+  "name": "hexo-generator-wxapi",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rr210/hexo-generator-restful-wx.git"
+    "url": "git+https://github.com/rr210/hexo-generator-wxapi.git"
   },
-  "version": "1.0.34"
+  "version": "1.0.41"
 }

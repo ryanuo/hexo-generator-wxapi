@@ -48,6 +48,10 @@ restful:
   post: true # article data
   pages: false # additional hexo page data, such as about
   swipers_list: [] # generate the specified page information and fill in the name of your article folder, such as ['css','js'], without suffix. It is mainly used for the rotation map API
+  search_all:
+    path: "/api/search.json"
+    field: "post"
+    content: true
 ```
 
 ## Document
@@ -65,6 +69,7 @@ Get | domain + `/api/categories.json` | get the classification of all articles
 Get | domain + `/api/categories/:catename.json` | get the article list of the specified category
 Get | domain + `/api/articles/:slug.json` | obtain the detailed data of the article according to the other name of the article, ` : slug 'is the other name of the article
 Get | domain + `/api/swiper.json` | get the article list with the specified name. Eg: ` ['Web ',' hexo ',' Java '] ` the characters in the array are the different names of the specified articles. The function is mainly used for the specified dynamic configuration of wechat applet rotation map articles
+Get | domain + `/api/search.json` | obtain all documents for local and global search.
 
 ### Get Implecit Pages
 
