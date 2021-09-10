@@ -1,10 +1,10 @@
 {
   "_from": "hexo-generator-restful-wx",
-  "_id": "hexo-generator-restful-wx@1.0.33",
+  "_id": "hexo-generator-restful-wx@1.0.34",
   "_inBundle": false,
   "_location": "/hexo-generator-restful-wx",
   "_phantomChildren": {
-    "object-assign": "1.0.33"
+    "object-assign": "1.0.34"
   },
   "_requested": {
     "type": "tag",
@@ -20,7 +20,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.nlark.com/hexo-generator-restful-wx/download/hexo-generator-restful-wx-1.0.33.tgz",
+  "_resolved": "https://registry.nlark.com/hexo-generator-restful-wx/download/hexo-generator-restful-wx-1.0.34.tgz",
   "_spec": "hexo-generator-restful-wx",
   "_where": "D:\\Github\\blog",
   "author": {
@@ -52,5 +52,5 @@
     "type": "git",
     "url": "git+https://github.com/rr210/hexo-generator-restful-wx.git"
   },
-  "version": "1.0.33"
+  "version": "1.0.34"
 }
