@@ -1,29 +1,26 @@
 {
-  "_from": "hexo-generator-wxapi",
-  "_id": "hexo-generator-wxapi@1.0.46",
+  "_from": "hexo-generator-wxapi@^1.0.6",
+  "_id": "hexo-generator-wxapi@1.0.6",
   "_inBundle": false,
-  "_integrity": "sha1-2z10vuFuwqxvoOiugBCvFB/Ct2E=",
   "_location": "/hexo-generator-wxapi",
   "_phantomChildren": {
     "object-assign": "4.1.1"
   },
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "hexo-generator-wxapi",
+    "raw": "hexo-generator-wxapi@^1.0.6",
     "name": "hexo-generator-wxapi",
     "escapedName": "hexo-generator-wxapi",
-    "rawSpec": "",
+    "rawSpec": "^1.0.6",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.0.6"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.nlark.com/hexo-generator-wxapi/download/hexo-generator-wxapi-1.0.46.tgz",
-  "_shasum": "db3d74bee16ec2ac6fa0e8ae8010af141fc2b761",
-  "_spec": "hexo-generator-wxapi",
+  "_resolved": "https://registry.nlark.com/hexo-generator-wxapi/download/hexo-generator-wxapi-1.0.6.tgz",
+  "_spec": "hexo-generator-wxapi@^1.0.6",
   "_where": "D:\\Github\\blog",
   "author": {
     "name": "harry"
@@ -35,15 +32,14 @@
   "dependencies": {
     "hexo-pagination": "^0.1.0",
     "lodash.pick": "^4.4.0",
-    "nunjucks": "^3.0.1",
-    "utils-merge": "^1.0.0"
+    "nunjucks": "^3.0.1"
   },
   "deprecated": false,
   "description": "Generate restful json data for Hexo plugins.",
   "homepage": "https://github.com/rr210/hexo-generator-wxapi#readme",
   "keywords": [
     "hexo",
-    "restful",
+    "wxapi",
     "json",
     "generator",
     "微信小程序",
@@ -56,5 +52,5 @@
     "type": "git",
     "url": "git+https://github.com/rr210/hexo-generator-wxapi.git"
   },
-  "version": "1.0.46"
+  "version": "1.0.6"
 }

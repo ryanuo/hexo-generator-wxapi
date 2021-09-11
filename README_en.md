@@ -4,13 +4,14 @@
   <a title="Chinese" href="/README.md">cn</a>
 </div>
 
-# hexo-generator-restful-wx
+# hexo-generator-wxapi
 * Based on [hexo generator restful](https://www.npmjs.com/package/hexo-generator-restful)Modified to add a long list of specified articles (for the display of rotation chart)
+* Based on [hexo-generator-search](https://www.npmjs.com/package/hexo-generator-search), the article file alias is changed and added to facilitate the configuration of applet interface
 
 ## Install
 
 ```bash
-npm install hexo-generator-restful-wx --save
+npm install hexo-generator-wxapi --save
 ```
 
 ## Representative project
@@ -23,7 +24,7 @@ npm install hexo-generator-restful-wx --save
 * Add the following as the default configuration. If the attribute value is`false`, it means that it will not be generated
 
 ```yml
-restful:
+restful_api:
   #Site can be configured to selectively grow some properties of the array
   # site: ['title'，'subtitle'，'description'，'author'，'since'，email'，'favicon'，'avatar']
   # site: true # hexo.config mix theme.config
@@ -49,8 +50,9 @@ restful:
   pages: false # additional hexo page data, such as about
   swipers_list: [] # generate the specified page information and fill in the name of your article folder, such as ['css','js'], without suffix. It is mainly used for the rotation map API
   search_all:
-    path: "/api/search.json"
-    field: "post"
+    enable: true   # default on
+    path: api/search.json
+    field: post
     content: true
 ```
 

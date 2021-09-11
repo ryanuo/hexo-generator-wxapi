@@ -4,7 +4,7 @@
  * @Date: 2021-09-07 09:32:40
  * @Url: https://u.mr90.top
  * @github: https://github.com/rr210
- * @LastEditTime: 2021-09-10 23:33:04
+ * @LastEditTime: 2021-09-11 15:38:17
  * @LastEditors: Harry
 -->
 <div align="right">
@@ -13,13 +13,14 @@
   <a title="English" href="/README_en.md">英文</a>
 </div>
 
-# hexo-generator-restful-wx
+# hexo-generator-wxapi
 * 基于[hexo-generator-restful](https://www.npmjs.com/package/hexo-generator-restful) 进行修改, 增加了指定文章列表生成(用于轮播图的展示)
+* 基于[hexo-generator-search](https://www.npmjs.com/package/hexo-generator-search), 改动增加文章文件别名, 方便配置小程序接口
 
 ## Install
 
 ```bash
-npm install hexo-generator-restful-wx --save
+npm install hexo-generator-wxapi --save
 ```
 
 ## 代表项目
@@ -27,12 +28,12 @@ npm install hexo-generator-restful-wx --save
 * [代表项目](https://github.com/Rr210/hexo-wx-api)
 * 基于此接口 设计的一款微信小程序
 
-## 配置hexo文件下的_config.yml
+## 配置hexo文件下的 `_config.yml`
 
 * 加入以下为默认配置, 属性值为 `false` 表示不生成.
 
 ```yml
-restful:
+restful_api:
   # site 可配置为数组选择性生成某些属性
   # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
   # site: true        # hexo.config mix theme.config
@@ -58,8 +59,9 @@ restful:
   pages: false             # 额外的 Hexo 页面数据, 如 About
   swipers_list: []          # 生成指定的页面信息,填写你文章文件夹名称比如['css','js']，不加后缀名,主要用于轮播图api
   search_all:
-    path: "/api/search.json"
-    field: "post"
+    enable: true   # 默认开启
+    path: api/search.json
+    field: post
     content: true
 ```
 
